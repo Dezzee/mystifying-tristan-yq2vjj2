@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://media1.giphy.com/media/ikuEjztUKvgdmPe4Og/giphy.gif");
+  box-shadow: inset 0 0 0 1000px rgba(238, 255, 0, 0.558);
+  border: #000000;
+  border-radius: 4%;
+  background-position: static;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+button {
+  background-color: #000000; /* Green */
+  border: 4px solid red;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: grab;
+}
+
+button2 {
+  background-color: #09070a; /* Green */
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: not-allowed;
+  display: inline-block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+}
+
+button,
+button2 {
+  &:hover {
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+h1 {
+  color: rgb(255, 0, 0);
+  font-weight: 900;
+  font-style: italic;
+  text-shadow: 1px 1px #ffffff;
+  text-align: center;
+}
+
+thead {
+  color: rgb(25, 0, 255);
+}
+
+ul {
+  font-size: larger;
+  font-weight: 800;
+  text-shadow: 1px 1px #000000;
+}
+
+ol {
+  font-family: monospace;
+  font-weight: bolder;
+  color: blue;
+  text-shadow: 1px 1px #000000;
+  text-underline-position: below;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 100%;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+  background-color: #ffffff5b;
+  border: 4px solid red;
+  border-radius: 4%;
+}
+
+div2 {
+  position: sticky;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  border: 4px solid red;
+}
+
+img {
+  border: 4px solid red;
+}
+
+div3 {
+  position: sticky;
+  top: px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
